@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         leftInput = Input.GetKeyDown(KeyCode.A);
         rightInput = Input.GetKeyDown(KeyCode.D);
 
+        //There are 5 lanes (-lane1, -lane2, lane3, lane2, lane1)
         float lane1 = 12.5f;
         float lane2 = 6.5f;
         float lane3 = 0f;
